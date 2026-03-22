@@ -5,8 +5,6 @@ namespace DesafioPOO.Models
         // Propriedade pública conforme o diagrama (+)
         public string Numero { get; set; }
 
-        // TODO: Implementar as propriedades faltantes de acordo com o diagrama - CONCLUÍDO
-        // Usamos private pois no diagrama estão com o sinal de "-"
         private string Modelo { get; set; }
         private string IMEI { get; set; }
         private int Memoria { get; set; }
@@ -15,7 +13,6 @@ namespace DesafioPOO.Models
         public Smartphone(string numero, string modelo, string imei, int memoria)
         {
             Numero = numero;
-            // TODO: Passar os parâmetros do construtor para as propriedades - CONCLUÍDO
             Modelo = modelo;
             IMEI = imei;
             Memoria = memoria;
